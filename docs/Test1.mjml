@@ -1,0 +1,75 @@
+```mjml
+<mjml>
+  <mj-body background-color="#e6d7c3" width="600px">
+    <mj-section padding="30px 20px 0 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/100x30?text=Logo" alt="Zylker" width="100px" padding="0px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f56a67" padding="40px 40px 40px 40px">
+      <mj-column>
+        <mj-text align="left" color="#ffffff" font-size="20px" font-weight="bold" padding="0">
+          Thank you for subscribing to Zylker business newsletters!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="30px 40px 30px 40px">
+      <mj-column>
+        <mj-text align="left" font-size="16px" color="#424242" padding="0 0 20px 0" line-height="24px">
+          Hello $[FNAME|Customer|Guest]$
+        </mj-text>
+        <mj-text align="left" font-size="16px" color="#424242" padding="0 0 20px 0" line-height="24px">
+          We are delighted to have you on board.
+        </mj-text>
+        <mj-text align="left" font-size="16px" color="#424242" padding="0 0 20px 0" line-height="24px">
+          We are happy to welcome you to our organization. We started out to create value for the services you use on a daily basis. We are glad you joined us on our path to something great. We thank you for the priceless belief you have in us.
+        </mj-text>
+        <mj-text align="left" font-size="16px" color="#424242" padding="0 0 20px 0" line-height="24px">
+          Keep a look out for our Tuesday newsletter, where we compile all product news and updates for you.
+        </mj-text>
+        <mj-text align="left" font-size="16px" color="#424242" padding="0" line-height="24px">
+          With love,<br />
+          Zylker Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 40px 0 40px">
+      <mj-column>
+        <mj-text align="center" font-size="14px" color="#424242" padding="0 0 10px 0" line-height="22px">
+          Follow Us On
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 30px" vertical-align="middle">
+      <mj-column width="25%" padding="0">
+        <mj-image src="https://placehold.co/32x32?icon=facebook" alt="Facebook" width="32px" padding="0"></mj-image>
+      </mj-column>
+      <mj-column width="25%" padding="0">
+        <mj-image src="https://placehold.co/32x32?icon=twitter" alt="Twitter" width="32px" padding="0"></mj-image>
+      </mj-column>
+      <mj-column width="25%" padding="0">
+        <mj-image src="https://placehold.co/32x32?icon=linkedin" alt="LinkedIn" width="32px" padding="0"></mj-image>
+      </mj-column>
+      <mj-column width="25%" padding="0">
+        <mj-image src="https://placehold.co/32x32?icon=pinterest" alt="Pinterest" width="32px" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 40px 40px 40px">
+      <mj-column>
+        <mj-text align="center" font-size="13px" color="#424242" line-height="20px" padding="0 0 4px 0">
+          You are receiving this email as you signed up for our newsletters.
+        </mj-text>
+        <mj-text align="center" font-size="13px" color="#424242" line-height="20px" padding="0 0 4px 0">
+          Want to change how you receive these emails?
+        </mj-text>
+        <mj-text align="center" font-size="13px" color="#424242" line-height="20px" padding="0 0 6px 0">
+          You can <a href="#" style="color: #424242; text-decoration: underline;">Unsubscribe</a> or <a href="#" style="color: #424242; text-decoration: underline;">Update your preferences</a>
+        </mj-text>
+        <mj-text align="center" font-size="13px" color="#424242" line-height="20px" padding="0">
+          $[HF:ORGINFO]$
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
+```
