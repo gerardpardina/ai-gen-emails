@@ -1,0 +1,53 @@
+```mjml
+<mjml>
+  <mj-body width="600px" background-color="#ffffff">
+    <!-- Top row - left column empty middle, right red background -->
+    <mj-section padding="0" full-width="full-width" background-color="#ffffff">
+      <mj-column width="10%" padding="0"></mj-column>
+      <mj-column width="80%" padding="0"></mj-column>
+      <mj-column width="10%" padding="0" background-color="#e66161" vertical-align="bottom">
+        <mj-text padding="4px 8px" font-size="12px" line-height="14px" color="#000000" align="left">Row 3</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Blue banner with icon and text -->
+    <mj-section background-color="#75b9d2" padding="30px 0 40px 0">
+      <mj-column>
+        <mj-image src="https://placehold.co/64x64/yellow/white/png" alt="Envelope icon" width="64px" padding="0 0 18px 0"></mj-image>
+        <mj-text font-weight="400" font-size="14px" color="#1e3e52" align="center" padding="0 0 0 0" font-family="Arial, Helvetica, sans-serif" text-transform="uppercase" letter-spacing="2px" line-height="18px">CREATING</mj-text>
+        <mj-text font-size="30px" font-weight="700" align="center" padding="4px 0 0 0" line-height="36px" font-family="Arial, Helvetica, sans-serif">
+          <span style="color:#ffffff; font-weight:700;">email </span><span style="color:#14415c;">magic</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Main content section -->
+    <mj-section background-color="#ffffff" padding="40px 30px 40px 30px">
+      <mj-column>
+        <mj-text padding="0" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="20px" line-height="24px" color="#000000" align="left">
+          Creating Email Magic
+        </mj-text>
+        <mj-text font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14px" line-height="18px" color="#000000" padding="8px 0 8px 0" align="left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan et dictum, nisi libero ultricies ipsum, posuere neque at erat.
+        </mj-text>
+        <mj-text font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="14px" color="#0000ee" padding="0 0 12px 0" align="left" line-height="18px">
+          <a href="#" style="color:#0000ee; text-decoration: underline;">In tempus felis blandit</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Table row with two columns, inside border -->
+    <mj-section background-color="#ffffff" padding="0 30px 40px 30px">
+      <mj-column padding="0" border="1px solid #000000" border-radius="0">
+        <mj-table font-size="14px" padding="0" color="#000000" align="left" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td style="border-right:1px solid #000000; padding:6px 12px; font-family: Arial, Helvetica, sans-serif;">Column 1</td>
+            <td style="padding:6px 12px; font-family: Arial, Helvetica, sans-serif;">Column 2</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
+```
