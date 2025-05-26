@@ -1,0 +1,165 @@
+```mjml
+<mjml>
+  <mj-body background-color="#fff" width="600px">
+    <!-- Header -->
+    <mj-section background-color="#004561" padding="10px 20px">
+      <mj-column width="auto">
+        <mj-image src="https://placehold.co/30x30?text=%20" alt="Logo" width="30px" padding="0"></mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text color="#ffffff" font-size="14px" align="right" padding="5px 0 0 0" font-family="Arial, sans-serif" font-weight="bold">
+          wonderblum
+        </mj-text>
+      </mj-column>
+      <mj-column width="auto" vertical-align="middle">
+        <mj-text color="#ffffff" font-size="14px" align="right" padding="0" font-family="Arial, sans-serif" font-weight="normal" line-height="18px" letter-spacing="0.1px" text-transform="capitalize" >
+          Shop
+        </mj-text>
+      </mj-column>
+      <mj-column width="auto" vertical-align="middle">
+        <mj-image src="https://placehold.co/20x20?text=%F0%9F%8D%93" alt="cart" width="20px" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Icon checkmark area -->
+    <mj-section padding="20px 0 10px 0" background-color="#ffffff">
+      <mj-column>
+        <mj-image src="https://placehold.co/55x55?text=%E2%9C%93" alt="Checkmark Icon" width="55px" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Thank you text -->
+    <mj-section background-color="#ffffff" padding="0 20px 15px 20px">
+      <mj-column>
+        <mj-text color="#00787a" font-size="20px" font-family="Arial, sans-serif" font-weight="bold" align="center" padding="0">
+          Thank You For Your Order!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Placeholder paragraph below thank you -->
+    <mj-section background-color="#ffffff" padding="0 20px 25px 20px">
+      <mj-column>
+        <mj-text color="#505050" font-size="12px" font-family="Arial, sans-serif" line-height="16px" align="left" padding="0">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium iste ipsa numquam odio dolores, nam.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Order Confirmation No. blue background block -->
+    <mj-section background-color="#cceeff" padding="10px 20px" css-class="order-confirmation-block">
+      <mj-column width="50%">
+        <mj-text font-weight="bold" font-family="Arial, sans-serif" font-size="14px" padding="0" color="#000" align="left">
+          Order Confirmation No.
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-weight="bold" font-family="Arial, sans-serif" font-size="14px" padding="0" color="#000" align="right">
+          #2345678
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Price Breakdown -->
+    <mj-section padding="15px 20px 0 20px" background-color="#ffffff">
+      <mj-column width="60%">
+        <mj-text font-size="14px" font-family="Arial, sans-serif" color="#000" padding="2px 0" align="left">
+          Purchased Item (1)
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text font-size="14px" font-family="Arial, sans-serif" color="#000" padding="2px 0" align="right">
+          $100.00
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="2px 20px" background-color="#ffffff">
+      <mj-column width="60%">
+        <mj-text font-size="14px" font-family="Arial, sans-serif" color="#000" padding="2px 0" align="left">
+          Shipping + Handling
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text font-size="14px" font-family="Arial, sans-serif" color="#000" padding="2px 0" align="right">
+          $10.00
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="2px 20px 15px 20px" background-color="#ffffff">
+      <mj-column width="60%">
+        <mj-text font-size="14px" font-family="Arial, sans-serif" color="#000" padding="2px 0" align="left">
+          Sales Tax
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text font-size="14px" font-family="Arial, sans-serif" color="#000" padding="2px 0" align="right">
+          $5.00
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Divider -->
+    <mj-divider border-width="1px" border-color="#ddd" padding="0 20px" />
+
+    <!-- Total row -->
+    <mj-section background-color="#ffffff" padding="10px 20px 15px 20px">
+      <mj-column width="60%">
+        <mj-text font-weight="bold" font-family="Arial, sans-serif" font-size="14px" color="#000" padding="0" align="left">
+          TOTAL
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-text font-weight="bold" font-family="Arial, sans-serif" font-size="14px" color="#000" padding="0" align="right">
+          $115.00
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Delivery & Estimated Delivery Date columns -->
+    <mj-section padding="15px 20px" background-color="#ffffff">
+      <mj-column width="50%">
+        <mj-text font-weight="bold" font-family="Arial, sans-serif" font-size="14px" color="#000" padding="0 0 5px 0" align="left">
+          Delivery Address
+        </mj-text>
+        <mj-text font-family="Arial, sans-serif" font-size="12px" color="#000" padding="0" align="left">
+          675 Massachusetts Avenue<br/>11th Floor<br/>Cambridge, MA 02139
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-weight="bold" font-family="Arial, sans-serif" font-size="14px" color="#000" padding="0 0 5px 0" align="left">
+          Estimated Delivery Date
+        </mj-text>
+        <mj-text font-family="Arial, sans-serif" font-size="12px" color="#000" padding="0" align="left">
+          January 1st, 2024
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Blue section with button -->
+    <mj-section background-color="#00787a" padding="30px 20px">
+      <mj-column width="100%">
+        <mj-text font-weight="bold" font-family="Arial, sans-serif" font-size="18px" color="#ffffff" align="center" padding="0 0 20px 0">
+          Get 25% off your next order.
+        </mj-text>
+        <mj-button background-color="#004561" color="#fff" border-radius="6px" font-family="Arial, sans-serif" font-weight="normal" font-size="14px" href="#" padding="10px 30px" align="center">
+          Awesome
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#f0f0f0" padding="15px 20px">
+      <mj-column>
+        <mj-text font-family="Arial, sans-serif" font-size="10px" color="#000" align="center" padding="0 0 10px 0">
+          Any address information, legal, terms etc to be added here
+        </mj-text>
+        <mj-text font-family="Arial, sans-serif" font-size="10px" color="#000" align="center" padding="0" line-height="1.2">
+          <a href="#" style="color:#000000; text-decoration:underline;">Email Preferences</a> &nbsp;|&nbsp; 
+          <a href="#" style="color:#000000; text-decoration:underline;">Unsubscribe</a> &nbsp;|&nbsp; 
+          <a href="#" style="color:#000000; text-decoration:underline;">View Online</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
