@@ -1,0 +1,89 @@
+```mjml
+<mjml>
+  <mj-body background-color="#edece7" width="600px">
+    <!-- Header -->
+    <mj-section background-color="#ffd800" padding="40px 20px 40px 20px">
+      <mj-column>
+        <mj-image src="https://placehold.co/600x220/ffd800/000000?text=ActiveCampaign+Postmark+-+Header+Illus" alt="ActiveCampaign Postmark Header Illustration" width="560px" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- Greeting & Body -->
+    <mj-section background-color="#ffffff" padding="40px 40px 40px 40px">
+      <mj-column>
+        <mj-text font-family="Arial, sans-serif" font-size="18px" font-weight="700" color="#2c2c2c" line-height="1.2" align="left" padding="0">Welcome fio 👋</mj-text>
+        <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" line-height="1.4" padding="15px 0 15px 0" align="left">
+          You’re in! We’re writing to let you know that Shelley manually reviewed and approved your account and you can now start sending email from your app to any email address.
+        </mj-text>
+        <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" line-height="1.4" padding="0 0 15px 0" align="left">
+          As a reminder, your username is <strong>[******]</strong>. You can <a href="#" style="color:#0066cc;">log into your account here</a>.
+        </mj-text>
+        <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" line-height="1.4" padding="0 0 30px 0" align="left">
+          Thanks for your patience during this process. We manually review every new account to help us maintain the highest possible reliability and deliverability rates for all of our customers.
+        </mj-text>
+
+        <!-- Free Developer Plan Box -->
+        <mj-wrapper background-color="#f0f7fd" padding="20px" border-radius="2px" full-width="full-width">
+          <mj-text font-family="Arial, sans-serif" font-size="16px" font-weight="700" color="#2c2c2c" padding="0 0 8px 0" align="left">You're on the free developer plan</mj-text>
+          <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" padding="0 0 15px 0" line-height="1.4" align="left">
+            We’ve started you off on the free developer plan (100 test emails per month). Feel free to upgrade when you’re ready to increase your monthly email limit.
+          </mj-text>
+          <mj-button background-color="#0077cc" color="#ffffff" font-family="Arial, sans-serif" font-size="14px" font-weight="700" border-radius="3px" padding="0" href="#" inner-padding="12px 20px">
+            Upgrade your plan
+          </mj-button>
+        </mj-wrapper>
+
+        <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" padding="30px 0 15px 0" line-height="1.4" align="left">
+          Now that you’re part of the Postmark family, there are a few things you can expect from us:
+        </mj-text>
+
+        <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" line-height="1.4" padding="0" align="left">
+          <ul style="padding-left:16px; margin-top:0px; margin-bottom:0px; font-family: Arial, sans-serif; font-size:14px; color:#2c2c2c; line-height:1.4;">
+            <li>First and foremost, you can expect your emails to be delivered quickly to your customers’ inboxes. That is why we exist, and we’ll never lose sight of that.</li>
+            <li>You can also expect clear and accurate documentation, a straightforward UI, and helpful support from friendly humans who know what they’re talking about (and who want to see your business thrive as much as you do).</li>
+          </ul>
+        </mj-text>
+
+        <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" line-height="1.4" padding="15px 0 15px 0" align="left">
+          If you have any questions as you get set up, just reply and we’ll do everything we can to help you along. Also be sure to check out our <a href="#" style="color:#0066cc;">step-by-step guide</a> on how to implement Postmark in the way that’s best for your app.
+        </mj-text>
+
+        <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" font-weight="700" line-height="1.4" padding="20px 0 0 0" align="left">
+          Seriously, though — welcome. We’re really happy you’re with us.
+        </mj-text>
+
+        <mj-text font-family="Arial, sans-serif" font-size="14px" color="#2c2c2c" font-weight="700" line-height="1.4" padding="4px 0 0 0" align="left">
+          The Postmark Team
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Yellow Social Follow Bar -->
+    <mj-section background-color="#ffd800" padding="14px 25px 14px 25px">
+      <mj-column>
+        <mj-text align="center" font-family="Arial, sans-serif" font-size="14px" color="#000000" padding="0" line-height="1">
+          Follow us on&nbsp;<a href="#" style="color:#000; text-decoration:none;">🐦 Twitter</a>&nbsp;and&nbsp;<a href="#" style="color:#000; text-decoration:none;">🔗 LinkedIn</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Dark Footer Bar -->
+    <mj-section background-color="#383d49" padding="15px 25px 15px 25px">
+      <mj-column>
+        <mj-text align="center" font-family="Arial, sans-serif" font-size="13px" color="#9fa3b7" padding="0" line-height="1">
+          <a href="#" style="color:#9fa3b7; text-decoration:none;">💌 Subscribe to the Postmark newsletter</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Bottom Footer Text -->
+    <mj-section background-color="#edece7" padding="20px 25px 20px 25px">
+      <mj-column>
+        <mj-text font-family="Arial, sans-serif" font-size="12px" color="#9a9a9a" align="center" padding="0" line-height="1">
+          ActiveCampaign LLC, 1 North Dearborn St, 5th Floor, Chicago, IL 60602
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
+```
