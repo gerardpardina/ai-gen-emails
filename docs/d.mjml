@@ -1,0 +1,87 @@
+```mjml
+<mjml>
+  <mj-body background-color="#0047BB" width="600px" font-family="Arial, sans-serif">
+    <mj-section padding="0">
+      <mj-column width="50%" padding="0">
+        <mj-image 
+          src="https://placehold.co/300x260" 
+          alt="Aerial view of luxury villa" 
+          width="300px" 
+          padding="0"
+        ></mj-image>
+      </mj-column>
+      <mj-column width="50%" vertical-align="top" padding="20px 30px 20px 20px">
+        <mj-text 
+          align="left" 
+          color="#FFFFFF" 
+          font-size="18px" 
+          font-weight="bold" 
+          padding="0 0 15px 0"
+          line-height="1.3"
+        >
+          THE AMAZING PRIZE PACKAGE
+        </mj-text>
+        <mj-text 
+          align="left" 
+          color="#FFFFFF" 
+          font-size="14px" 
+          padding="0 0 15px 0" 
+          line-height="1.5"
+        >
+          <ul style="padding-left:15px; margin: 0; list-style-type: disc;">
+            <li>7 nights in a luxury villa in La Calete, Costa Adeje, Tenerife</li>
+            <li>Return flights for 10 people to Tenerife</li>
+            <li>Breakfast, lunch and 3 course a la carte dinner cooked by your private Michelin-trained chef each day</li>
+            <li>Fully staffed villa including a sous chef, full</li>
+            <li>time housekeeper including daily turn down and concierge team</li>
+            <li>Chauffeur driven BMW during your stay, including airport transfers</li>
+            <li>Unlimited premium soft drinks and premium snacks</li>
+            <li>Travel insurance</li>
+          </ul>
+        </mj-text>
+        <mj-button 
+          background-color="#FFFFFF" 
+          color="#0047BB" 
+          border-radius="25px" 
+          font-weight="bold" 
+          href="#" 
+          padding="10px 25px 0 0" 
+          align="left"
+          inner-padding="10px 25px"
+          font-size="14px"
+        >
+          REGISTER NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0 30px 20px 20px">
+      <mj-column width="33.33%" padding="0 7px 0 0">
+        <mj-image 
+          src="https://placehold.co/100x70?text=Return+flights+for+10+people" 
+          alt="Return Flights for 10 People" 
+          width="100px" 
+          padding="0"
+        ></mj-image>
+      </mj-column>
+      <mj-column width="33.33%" padding="0 7px 0 7px">
+        <mj-image 
+          src="https://placehold.co/100x70?text=Private+Chef" 
+          alt="Private Chef" 
+          width="100px" 
+          padding="0"
+        ></mj-image>
+      </mj-column>
+      <mj-column width="33.33%" padding="0 0 0 7px">
+        <mj-image 
+          src="https://placehold.co/100x70?text=Car+%26+Driver" 
+          alt="Car & Driver" 
+          width="100px" 
+          padding="0"
+        ></mj-image>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
+```
